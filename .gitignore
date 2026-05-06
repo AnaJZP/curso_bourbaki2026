@@ -1,6 +1,9 @@
-# Datos del dataset (imagenes pesadas)
+# Datos del dataset (pesados)
 Reto_I/data/images/
 Reto_I/data/data.csv
+Reto_II/data/X_train.csv
+Reto_II/data/y_train.csv
+Reto_II/data/assets.csv
 
 # Cache de Python
 __pycache__/
