@@ -185,7 +185,7 @@ ventaja del DQN seria mayor.
 Reto_IV/
 |-- main.py                 # Punto de entrada (7 pasos)
 |-- download_data.py        # Descarga del dataset (ejecutar una sola vez)
-|-- datacard.md             # Data Card del dataset
+|-- flashcard.md             # Data Card del dataset
 |-- analisis.md             # Este archivo
 |-- Reto_IV_ML_AI.pdf       # Enunciado del reto
 |-- data/

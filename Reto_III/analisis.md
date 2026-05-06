@@ -144,7 +144,7 @@ Todas las graficas se encuentran en la carpeta `resultados/`:
 | `03_tipo_habitacion.png` | Conteo y boxplot por tipo de habitacion |
 | `04a_grafo_geografico.png` | Visualizacion del grafo KNN (submuestra) |
 | `04b_grafo_textual.png` | Visualizacion del grafo textual (submuestra) |
-| `05_predicciones.png` | Real vs predicho por modelo |
+| `05_predicciones.png` | Real vs estimado por modelo |
 | `06_comparacion_metricas.png` | Barplot comparativo MSE/MAE/R2 |
 | `07_learning_curves.png` | Curvas de aprendizaje GCN |
 | `08_resumen_resultados.csv` | Tabla resumen en CSV |
@@ -208,7 +208,7 @@ El grafo textual (R2=0.40) supera al geografico (R2=0.24). Esto se debe a que:
 Reto_III/
 |-- main.py                 # Punto de entrada
 |-- download_data.py        # Descarga del dataset (ejecutar una sola vez)
-|-- datacard.md             # Data Card del dataset
+|-- flashcard.md             # Data Card del dataset
 |-- analisis.md             # Este archivo
 |-- Reto_III_ML_AI.pdf      # Enunciado del reto
 |-- data/

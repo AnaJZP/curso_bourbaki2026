@@ -188,7 +188,7 @@ modalidad.
 Reto_I/
 |-- main.py                 # Punto de entrada
 |-- download_data.py        # Descarga del dataset (ejecutar una sola vez)
-|-- datacard.md             # Data Card del dataset
+|-- flashcard.md             # Data Card del dataset
 |-- analisis.md             # Este archivo
 |-- Reto_I_ML_AI.pdf        # Enunciado del reto
 |-- data/

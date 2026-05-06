@@ -1,4 +1,4 @@
-# Data Card -- Dynamic Pricing Dataset
+# Flash Card -- Dynamic Pricing Dataset
 
 ## Informacion General
 

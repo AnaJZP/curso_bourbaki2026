@@ -128,7 +128,7 @@ Todas las graficas se encuentran en la carpeta `resultados/`:
 | `02_capacidades_nominales.png` | Distribucion de capacidades |
 | `03_nan_heatmap.png` | Valores faltantes por activo/medida |
 | `04_distribucion_medidas.png` | Distribucion de cada tipo de medida |
-| `05_predicciones.png` | Real vs predicho (3 modelos x 2 grupos) |
+| `05_predicciones.png` | Real vs estimado (3 modelos x 2 grupos) |
 | `06_comparacion_mse.png` | Barplot comparativo de MSE |
 | `07_feature_importance.png` | Features mas importantes (GBR) |
 | `08_lstm_learning.png` | Curvas de aprendizaje LSTM |
@@ -183,7 +183,7 @@ de datos disponible.
 Reto_II/
 |-- main.py                 # Punto de entrada
 |-- analisis.md             # Este archivo
-|-- datacard.md             # Data Card
+|-- flashcard.md             # Data Card
 |-- Reto_II_ML_AI.pdf       # Enunciado del reto
 |-- data/
 |   |-- X_train.csv         # Mediciones diarias

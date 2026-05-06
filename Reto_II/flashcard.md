@@ -1,4 +1,4 @@
-# Data Card -- Industrial Asset Production (Kayrros / ENS Challenge)
+# Flash Card -- Industrial Asset Production (Kayrros / ENS Challenge)
 
 ## Informacion General
 

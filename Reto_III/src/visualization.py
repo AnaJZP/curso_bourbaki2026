@@ -166,7 +166,7 @@ def plot_graph_sample(data, title: str, filename: str,
 # -- Resultados ---------------------------------------------------
 
 def plot_predictions(results: dict) -> str:
-    """Real vs predicho para cada modelo."""
+    """Real vs Estimado para cada modelo."""
     n_models = len(results)
     fig, axes = plt.subplots(1, n_models, figsize=(6 * n_models, 5))
     if n_models == 1:
@@ -188,10 +188,10 @@ def plot_predictions(results: dict) -> str:
         ax.set_title(f"{name.upper()}\nR2={res.r2:.4f}, MAE={res.mae:.1f}",
                      fontsize=13, fontweight="bold")
         ax.set_xlabel("Precio Real (USD)")
-        ax.set_ylabel("Precio Predicho (USD)")
+        ax.set_ylabel("Precio Estimado (USD)")
         ax.grid(alpha=0.3)
 
-    plt.suptitle("Precio Real vs Predicho",
+    plt.suptitle("Precio Real vs Estimado",
                  fontsize=16, fontweight="bold", y=1.03)
     plt.tight_layout()
     return _save(fig, "05_predicciones.png")

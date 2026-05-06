@@ -1,4 +1,4 @@
-# Data Card -- Hateful Memes (Meta AI / Facebook AI)
+# Flash Card -- Hateful Memes (Meta AI / Facebook AI)
 
 ## Informacion General
 

@@ -1,4 +1,4 @@
-# Data Card -- Airbnb Santorini Listings
+# Flash Card -- Airbnb Santorini Listings
 
 ## Informacion General
 

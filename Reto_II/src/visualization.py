@@ -121,7 +121,7 @@ def plot_predictions(results: dict) -> str:
 
             ax.plot(weeks, trues, color=colors_g[g], lw=2, label="Real")
             ax.plot(weeks, preds, color=colors_g[g], lw=2, ls="--",
-                    alpha=0.7, label="Predicho")
+                    alpha=0.7, label="Estimado")
             ax.fill_between(weeks, trues, preds, alpha=0.1, color=colors_g[g])
             ax.set_title(f"{model_name.upper()} -- Grupo {g} "
                          f"(MSE={res.mse_per_group[g]:.2e})",
