@@ -10,7 +10,7 @@ Repositorio de retos del curso ML e IA del Colegio de Matematicas Bourbaki.
 curso_bourbaki2026/
 |-- Reto_I/     Redes Multi-Modales: Deteccion de Memes Ofensivos
 |-- Reto_II/    Series Temporales: Prediccion de Produccion Industrial
-|-- Reto_III/   (proximamente)
+|-- Reto_III/   Graph Neural Networks: Prediccion de Precios de Airbnb
 |-- Reto_IV/    (proximamente)
 ```
 
@@ -48,6 +48,21 @@ Para mas detalles, consultar `Reto_II/analisis.md`.
 
 ---
 
+## Reto III -- Graph Neural Networks
+
+Prediccion de precios de Airbnb en Santorini (Grecia) mediante Graph Neural
+Networks. Se construyen grafos por proximidad geografica (KNN) y similitud
+textual (sentence-transformers) y se comparan contra regresion lineal.
+
+| Modelo | MSE | RMSE | MAE | R2 |
+|---|---|---|---|---|
+| LINEAR | 56,806 | 238 | 127 | 0.5553 |
+| GCN_GEO | 97,389 | 312 | 160 | 0.2376 |
+| GCN_TXT | 76,152 | 276 | 137 | 0.4038 |
+
+Para mas detalles, consultar `Reto_III/analisis.md`.
+
+
 ## Como ejecutar
 
 ### Reto I
@@ -67,11 +82,22 @@ pip install torch scikit-learn matplotlib seaborn pandas numpy
 python main.py
 ```
 
+### Reto III
+
+```bash
+cd Reto_III
+pip install torch torch-geometric sentence-transformers scikit-learn matplotlib seaborn pandas
+python download_data.py   # una sola vez
+python main.py
+```
+
 ## Dependencias
 
 - Python 3.10+
 - PyTorch
+- PyTorch Geometric -- solo Reto III
 - Transformers (HuggingFace) -- solo Reto I
+- sentence-transformers -- solo Reto III
 - scikit-learn
 - matplotlib, seaborn
 - pandas, numpy

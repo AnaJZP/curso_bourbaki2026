@@ -4,6 +4,7 @@ Reto_I/data/data.csv
 Reto_II/data/X_train.csv
 Reto_II/data/y_train.csv
 Reto_II/data/assets.csv
+Reto_III/data/listings.csv
 
 # Cache de Python
 __pycache__/
